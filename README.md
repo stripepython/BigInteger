@@ -60,7 +60,7 @@ BigInteger version 3.0 supports various operations. In the following complexity 
 
 - `a.gcd(b)`: Returns $\gcd(a,b)$, time complexity $O(\dfrac{n^2}{w})$ where $n$ is the maximum length of the two integers.
 
-- `a.lcm(b)`: Returns $\operatorname{lcm}(a,b)$, time complexity $O(\dfrac{n^2}{w})$ where $n$ is the maximum length of the two integers.
+- `a.lcm(b)`: Returns $lcm(a,b)$, time complexity $O(\dfrac{n^2}{w})$ where $n$ is the maximum length of the two integers.
 
 - `a << x`: Returns $a \times 2^x$, time complexity $O(\dfrac{(n+x) \log(n+x)}{w'})$ where $n$ is the length of the integer.
 
